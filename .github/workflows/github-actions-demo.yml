@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Retrieve secret
         env:
-          super_secret: ${{ secrets.SUPERSECRET }}
+          super_secret: ${{ secrets.ADMIN_PASSWORD }}
         run: |
                 example-command "$super_secret"
 

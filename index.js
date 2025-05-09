@@ -1,3 +1,3 @@
-const x = 2+3;
+const x = 2+1;
 
 console.log(x);
